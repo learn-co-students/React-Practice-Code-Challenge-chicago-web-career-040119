@@ -3,9 +3,7 @@ import React from 'react'
 
 const MoreButton = (props) => {
 
-const handleClick = () => {props.moreSushiClick()}
-
-    return <button onClick={handleClick}>
+    return <button onClick={props.moreSushi}>
             More sushi!
           </button>
 }
